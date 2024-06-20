@@ -1,0 +1,25 @@
+OBJECTS AND IT’S INTERNAL REPRESENTATION
+
+
+OBJECT
+=> Objects are fundamental data type in javascript, that allows to store and organize data in key value pairs.
+=> Object is a complex data type that can represent real word entity and is used for efficient data manipulation and structuring.
+=> Unlike primitive data type in javascript objects are more complex and can contain a combination of primitive data type and reference data type.
+=> An object is a reference data type, meaning that variables assigned an object value store a reference or pointer to the object’s location in memory.
+Object consist of priority and methods.
+
+PRIORITY :
+Priorities are variables attached to objects, defining it’s  characteristics.
+They are accessed using dot (.) notation.  
+
+
+METHODS: 
+Methods are function associated with the objects.
+For example, if a object represents a student, then it might have properties like name, roll number, age address, as well as methods like updated address, and updated name.
+
+PROTOTYPES AND INHERITANCE:
+Javascript is a prototype based language, and objects can inherit properties and methods from other objects through their data prototype.This mechanism enables the creation of hierarchical structure.
+Understanding how objects work and their internal representation empowers to write expressive and modular code.
+
+
+

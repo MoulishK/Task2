@@ -1,0 +1,49 @@
+  Differences between Document Object And Windows Object 
+
+
+Document Object:
+=> The document object represents a web page that is loaded in the browser.
+It provides access to the elements within the HTML page.
+=> With the help of the document object, we can add dynamic content to our web page.
+=> You can access the document object using either window.document or simply document.
+=> Some commonly used properties of the document object include:
+activeElement: 
+   Returns the currently active element in the document.
+body:
+   Returns the contents of the <body> element.
+anchors:
+   Returns all <a> elements with a name attribute.
+baseURI:
+   Represents the base URI of the document.
+cookie: 
+   Retrieves the cookie of the current document.
+charSet: 
+   Represents the document’s character encoding.
+defaultView:
+   Returns the current Window object.
+title:
+   Retrieves the title element of the document.
+Some commonly used methods of the document object include:
+addEventListener(): 
+   Attaches an event handler to a specified element.
+adoptNode():
+   Adopts a node from another document.
+close():
+   Closes the output stream.
+createAttribute():
+   Creates an attribute node.
+
+
+
+Window Object:
+=> The window object represents a window/tab containing a DOM document.
+=> It provides global functionality related to the browser window.
+=> Properties of the window object include browser history, location, and screen dimensions.
+=> In a multi-tab browser, each window object represents a single tab.
+Some commonly used properties of the window object include:
+innerHeight:
+   Height of the browser window.
+innerWidth:
+   Width of the browser window.
+resizeTo():
+   Resizes the entire browser window.
